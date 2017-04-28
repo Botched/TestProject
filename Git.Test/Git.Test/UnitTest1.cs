@@ -13,8 +13,12 @@ namespace Git.Test
         /// This is a test method, it will test one unit of work exclusively.
         /// </summary>
         [TestMethod]
-        public void TestMethod1()
+        public void CompareTwoValues()
         {
+            var val1 = "Hello";
+            var val2 = "Hello";
+
+            Assert.AreEqual(val1, val2);
         }
     }
 }
